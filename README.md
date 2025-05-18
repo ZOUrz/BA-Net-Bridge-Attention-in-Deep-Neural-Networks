@@ -32,5 +32,5 @@ The source code for BAv2 will be released soon. Stay tuned!
 
 ## 📬 Contact
 
-For questions or collaborations, please contact: [your_email@example.com]
+For questions or collaborations, please contact: [chenjunzhou@mail.sysu.edu.cn; zourz@mail2.sysu.edu.cn]
 
