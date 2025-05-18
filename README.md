@@ -1,2 +1,36 @@
-# BA-Net-Bridge-Attention-in-Deep-Neural-Networks
-BAv2 improves channel attention by enabling efficient cross-layer communication, achieving state-of-the-art results on ImageNet.
+# Bridge Attention v2 (BAv2)
+
+**BAv2** is an improved channel attention mechanism designed to enhance cross-layer information flow in convolutional neural networks. It introduces an adaptive selection operator to reduce redundancy and optimize feature interaction across layers. BAv2 achieves significant improvements on ImageNet classification benchmarks when integrated into ResNet and other advanced architectures.
+
+---
+
+## 🔍 Background
+
+This work builds upon our previous method, **BA-Net: Bridge Attention for Deep Convolutional Neural Networks**, which proposed a novel bridge attention mechanism to facilitate feature integration across layers.
+
+- 📖 [BA-Net Paper (ECCV, 2022)](https://link.springer.com/chapter/10.1007/978-3-031-19803-8_18)  
+- 💻 [BA-Net Code (BAv1)](https://github.com/zhaoy376/Bridge-Attention)
+
+In BAv2, we further introduce an **adaptive selection operator** to filter redundant information and enhance cross-layer communication more effectively.
+
+---
+
+## 📌 Highlights
+
+- Adaptive and lightweight attention mechanism
+- Substantial performance boost on ImageNet (Top-1: 80.49% with ResNet50, 81.75% with ResNet101)
+- Outperforms SENet and other classical channel attention modules
+- Easily pluggable into various CNNs and vision transformers
+
+---
+
+## 📂 Code Release
+
+The source code for BAv2 will be released soon. Stay tuned!
+
+---
+
+## 📬 Contact
+
+For questions or collaborations, please contact: [your_email@example.com]
+
