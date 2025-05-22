@@ -28,15 +28,15 @@ In BAv2, we further introduce an **adaptive selection operator** to filter redun
 
 ### Training
 
-、、、
+```
 python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 main.py --batch_size 256 --model_name ba_resnet50_v2 --data_path *path to your ImageNet dataset* --tag 300epochs_4gpu_256_imagenet
-、、、
+```
 
 ### Eval
 
-、、、
+```
 python -m torch.distributed.launch --nproc_per_node 1 --master_port 13456 eval.py --batch_size 128 --model_name ba_resnet50_v2 --dataset ImageNet --resume ba_resnet50_v2.pth --data_path *path to your ImageNet dataset*
-、、、
+```
 
 ---
 
